@@ -1,3 +1,7 @@
+import numpy as np
+import pandas as pd
+import statsmodels.api as sm
+
 def score_pair(pvalue, half_life, beta, spread):
   """Rank a candidate pair using a simple composite score.
 
