@@ -7,7 +7,7 @@ This repository implements a research framework for statistical arbitrage pairs 
 - Transaction cost modelling
 - Parameter sensitivity / optimisation analysis
 
-This project is designed to replicate a simplified quantitative research pipeline used in systematic trading environments.
+This project is designed to implement a simplified quantitative research workflow inspired by systematic statistical arbitrage research.
 
 All detailed explanations, experimentation, and analysis are provided in the accompanying Jupyter notebooks.
 
@@ -29,7 +29,7 @@ All detailed explanations, experimentation, and analysis are provided in the acc
 - Transaction cost simulation
 - Position turnover penalties
 - Performance tracking over multiple regimes
-### Performance Metrics
+### Evaluation Metrics
 - Annualised return
 - Sharpe ratio
 - Maximum drawdown
@@ -54,9 +54,7 @@ Performance varies across market regimes, with typical results:
 - Python 3.10+
 - NumPy / Pandas
 - Statsmodels
-- Matplotlib
 - yfinance
-- Jupyter Notebooks
 
 ## Suggested Improvements (Future Work)
 - Kalman filter-based dynamic hedge ratios
