@@ -170,5 +170,5 @@ def run_backtest(prices):
     display["Max Drawdown"] = (display["Max Drawdown"] * 100).map("{:.2f}%".format)
     display["Trades"] = display["Trades"].map("{:.0f}".format)
     display["Pairs"] = display["Pairs"].map("{:.0f}".format)
-return display
+    return display
 
