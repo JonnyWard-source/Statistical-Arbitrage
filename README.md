@@ -9,8 +9,6 @@ This repository implements a research framework for statistical arbitrage pairs 
 
 This project is designed to implement a simplified quantitative research workflow inspired by systematic statistical arbitrage research.
 
-All detailed explanations, experimentation, and analysis are provided in the accompanying Jupyter notebooks.
-
 ## Key Features
 ### Pair Selection
 - Linear regression-based hedge ratio estimation
